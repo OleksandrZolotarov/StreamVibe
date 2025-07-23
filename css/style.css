@@ -3077,9 +3077,6 @@ input[type=search]::-webkit-search-cancel-button {
     grid-template-columns: 1fr;
     row-gap: 0
   }
-  .spollers__body {
-    padding: .9375rem 1.875rem .9375rem 0
-  }
   .devices__cards {
     grid-template-columns: repeat(2,45%);
     justify-content: center
@@ -3301,6 +3298,9 @@ input[type=search]::-webkit-search-cancel-button {
     width: 0%;
     height: 1.125rem;
     background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTciIHZpZXdCb3g9IjAgMCAxOCAxNyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggaWQ9IlNoYXBlIiBkPSJNOS4zODA4NiAwTDEyLjQ5NjcgNC43MTE0TDE3Ljk0MDQgNi4yMTg4NUwxNC40MjI0IDEwLjYzODFMMTQuNjcwOSAxNi4yODEyTDkuMzgwODYgMTQuMzAxTDQuMDkwNzkgMTYuMjgxMkw0LjMzOTMxIDEwLjYzODFMMC44MjEzNTEgNi4yMTg4NUw2LjI2NTAxIDQuNzExNEw5LjM4MDg2IDBaIiBmaWxsPSIjRTYwMDAwIi8+Cjwvc3ZnPgo=) 0 0/1.125rem no-repeat
+  }
+  .spollers__body {
+    padding: .9375rem 1.875rem .9375rem 0
   }
   .spoiler-seasons__item {
     padding-left: .9375rem;
