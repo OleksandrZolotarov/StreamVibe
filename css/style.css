@@ -987,8 +987,8 @@ input[type=search]::-webkit-search-cancel-button {
   background-color: #555
 }
 .iti__selected-country-primary {
-  padding-right: .9375rem;
-  padding-left: .625rem;
+  padding-right: .9375rem!important;
+  padding-left: .625rem!important;
   position: relative
 }
 .iti__arrow {
