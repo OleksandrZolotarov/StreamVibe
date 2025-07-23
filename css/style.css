@@ -2515,6 +2515,9 @@ input[type=search]::-webkit-search-cancel-button {
   }
 }
 @media (max-width:30em) {
+  .spollers__body {
+    padding-left: 3.4375rem
+  }
   .hero-slider {
     padding-bottom: 3.75rem
   }
@@ -2561,9 +2564,6 @@ input[type=search]::-webkit-search-cancel-button {
   }
   ._spoller-init .spollers__title._spoller-active::before {
     padding: .625rem
-  }
-  .spollers__body {
-    padding-left: 3.4375rem
   }
   .spollers__body {
     font-size: .875rem
@@ -3473,9 +3473,6 @@ input[type=search]::-webkit-search-cancel-button {
     padding: clamp(.625rem ,.471743295rem + .7662835249vw ,1.25rem)
   }
   .spollers__body {
-    padding-left: clamp(3.4375rem ,2.9930555556rem + 2.2222222222vw ,5.25rem)
-  }
-  .spollers__body {
     font-size: clamp(.875rem ,.813697318rem + .30651341vw ,1.125rem)
   }
   .spoiler-seasons__item {
@@ -4057,12 +4054,10 @@ input[type=search]::-webkit-search-cancel-button {
     padding: clamp(1.5625rem ,.0933056872rem + 2.3696682464vw ,2.5rem)
   }
 }
-@media (min-width:20em)and (max-width:48em) {
-  .header__container {
-    min-height: clamp(3.4375rem ,1.4285714286rem + 10.0446428571vw ,6.25rem)
-  }
-}
 @media (min-width:30em)and (max-width:101.5625em) {
+  .spollers__body {
+    padding-left: clamp(3.4375rem ,2.6776746725rem + 2.5327510917vw ,5.25rem)
+  }
   .hero-slider {
     padding-bottom: clamp(3.75rem ,2.9639737991rem + 2.6200873362vw ,5.625rem)
   }
@@ -4074,6 +4069,11 @@ input[type=search]::-webkit-search-cancel-button {
   }
   .welcome {
     padding-bottom: clamp(2.5rem ,1.1899563319rem + 4.3668122271vw ,5.625rem)
+  }
+}
+@media (min-width:20em)and (max-width:48em) {
+  .header__container {
+    min-height: clamp(3.4375rem ,1.4285714286rem + 10.0446428571vw ,6.25rem)
   }
 }
 @media (max-width:61.99875em)and (min-width:101.5625em) {
