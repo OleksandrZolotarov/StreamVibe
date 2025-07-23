@@ -965,7 +965,7 @@ input[type=search]::-webkit-search-cancel-button {
   border: .25rem solid #141313;
   outline: .0625rem solid #262626
 }
-.iti__search-input {
+.welcome__div .iti__search-input {
   padding: .3125rem
 }
 .iti__flag {
