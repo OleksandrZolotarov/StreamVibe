@@ -1056,7 +1056,8 @@ input[type=search]::-webkit-search-cancel-button {
   font-weight: 500
 }
 .privacy-terms-content__container h1,
-.privacy-terms-content__container h2 {
+.privacy-terms-content__container h2,
+.privacy-terms-content__container h3 {
   text-transform: capitalize
 }
 .privacy-terms-content__container h1 {
@@ -2152,13 +2153,22 @@ input[type=search]::-webkit-search-cancel-button {
     margin-bottom: 2.5rem
   }
   .privacy-terms-content__container h2 {
-    padding-top: 1.25rem
+    padding-top: 2.5rem
   }
   .privacy-terms-content__container h2 {
     font-size: 2rem
   }
   .privacy-terms-content__container h2 {
-    margin-bottom: 1.5625rem
+    margin-bottom: 1.875rem
+  }
+  .privacy-terms-content__container h3 {
+    padding-top: 1.875rem
+  }
+  .privacy-terms-content__container h3 {
+    font-size: 1.375rem
+  }
+  .privacy-terms-content__container h3 {
+    margin-bottom: 1.125rem
   }
   .privacy-terms-content__container p:not(:last-child) {
     margin-bottom: .9375rem
@@ -2841,15 +2851,24 @@ input[type=search]::-webkit-search-cancel-button {
     font-size: 1.75rem
   }
   .privacy-terms-content__container h1:not(:last-child) {
-    margin-bottom: 1.5625rem
+    margin-bottom: 1.875rem
   }
   .privacy-terms-content__container h2 {
-    padding-top: .9375rem
+    padding-top: 1.25rem
   }
   .privacy-terms-content__container h2 {
     font-size: 1.375rem
   }
   .privacy-terms-content__container h2 {
+    margin-bottom: 1.25rem
+  }
+  .privacy-terms-content__container h3 {
+    padding-top: 1.25rem
+  }
+  .privacy-terms-content__container h3 {
+    font-size: 1.125rem
+  }
+  .privacy-terms-content__container h3 {
     margin-bottom: .9375rem
   }
   .privacy-terms-content__container p:not(:last-child) {
@@ -3739,16 +3758,25 @@ input[type=search]::-webkit-search-cancel-button {
     font-size: clamp(1.75rem ,1.627394636rem + .6130268199vw ,2.25rem)
   }
   .privacy-terms-content__container h1:not(:last-child) {
-    margin-bottom: clamp(1.5625rem ,1.3326149425rem + 1.1494252874vw ,2.5rem)
+    margin-bottom: clamp(1.875rem ,1.721743295rem + .7662835249vw ,2.5rem)
   }
   .privacy-terms-content__container h2 {
-    padding-top: clamp(.9375rem ,.8608716475rem + .3831417625vw ,1.25rem)
+    padding-top: clamp(1.25rem ,.94348659rem + 1.5325670498vw ,2.5rem)
   }
   .privacy-terms-content__container h2 {
     font-size: clamp(1.375rem ,1.221743295rem + .7662835249vw ,2rem)
   }
   .privacy-terms-content__container h2 {
-    margin-bottom: clamp(.9375rem ,.784243295rem + .7662835249vw ,1.5625rem)
+    margin-bottom: clamp(1.25rem ,1.096743295rem + .7662835249vw ,1.875rem)
+  }
+  .privacy-terms-content__container h3 {
+    padding-top: clamp(1.25rem ,1.096743295rem + .7662835249vw ,1.875rem)
+  }
+  .privacy-terms-content__container h3 {
+    font-size: clamp(1.125rem ,1.063697318rem + .30651341vw ,1.375rem)
+  }
+  .privacy-terms-content__container h3 {
+    margin-bottom: clamp(.9375rem ,.8915229885rem + .2298850575vw ,1.125rem)
   }
   .privacy-terms-content__container p:not(:last-child) {
     margin-bottom: clamp(.625rem ,.5483716475rem + .3831417625vw ,.9375rem)
