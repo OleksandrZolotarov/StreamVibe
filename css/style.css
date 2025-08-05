@@ -1249,13 +1249,11 @@ input[type=search]::-webkit-search-cancel-button {
 .card__link {
   border-radius: .625rem;
   overflow: hidden;
+  border: .0625rem solid #262626;
   display: grid;
   gap: .3125rem;
   grid-template-rows: auto 1fr;
-  will-change: transform;
-  transition: border .3s,-webkit-transform .3s;
-  transition: border .3s,transform .3s;
-  transition: border .3s,transform .3s,-webkit-transform .3s
+  transition: border .3s
 }
 .card__image {
   position: relative;
@@ -4220,8 +4218,7 @@ input[type=search]::-webkit-search-cancel-button {
     background-color: #262626
   }
   .card__link:hover {
-    -webkit-transform: scale(1.03);
-    transform: scale(1.03)
+    border: .0625rem solid #4c4c4c
   }
   .small-button:hover,
   .swiper-button-next:hover,
