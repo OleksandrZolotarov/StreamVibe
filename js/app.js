@@ -5359,7 +5359,6 @@
             observeParents: true,
             slidesPerView: 2,
             spaceBetween: 20,
-            autoHeight: true,
             speed: 800,
             pagination: {
                 el: ".show-hero__reviews-swiper-pagination",
